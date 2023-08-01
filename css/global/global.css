@@ -15,10 +15,5 @@ a {
 
 body {
   background-color: var(--cor-7);
-  /* max-height: 100vh; */
   height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  position: relative;
-  /* grid-template-rows: 102px 1fr; */
 }

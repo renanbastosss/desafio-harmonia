@@ -1,16 +1,10 @@
-header {
-  /* display: grid; */
-  position: absolute;
-  /* grid-template-rows: 48px auto; */
-  margin-top: 48px;
-  width: 100%;
-  grid-column: 3/-1;
-}
-
 .header {
+  position: absolute;
+  right: 0;
+  top: 48px;
+  left: 20%;
   background-color: var(--cor-0);
   border-radius: 5px 0 0 5px;
-  /* grid-row: 2; */
 }
 
 .header ul {
@@ -49,6 +43,7 @@ header {
 }
 
 @media (max-width: 900px) {
+
   .header {
     display: none;
   }
@@ -56,7 +51,7 @@ header {
   .menu-hamburguer {
     position: absolute;
     right: 20px;
-    top: 48px;
+    top: 30px;
     width: 35px;
     height: 35px;
     display: flex;
@@ -68,16 +63,10 @@ header {
     background-color: var(--cor-0);
     width: 100%;
     height: 5px;
-    
-    
   }
 }
 
-@media (max-width: 470px) {  
-  header {
-    bottom: 0;
-    grid-column: 1;
-  }
+@media (max-width: 500px) {  
 
   .menu-hamburguer {
     display: none;
@@ -85,10 +74,11 @@ header {
 
   .menu-mobile {
     display: block;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
+    background-color: var(--cor-7);
   }
 
   .menu-mobile nav {

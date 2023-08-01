@@ -1,0 +1,20 @@
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  grid-column: 1/-1;
+}
+
+@media (max-width: 900px) {  
+  .logo-home img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 470px) {  
+  .logo-home img {
+    width: 300px;
+  }
+}

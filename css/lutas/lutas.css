@@ -1,0 +1,133 @@
+.lutas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+  gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.lutas .proximas {
+  border: 1px solid var(--cor-4);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.lutas .anteriores {
+  border: 1px solid var(--cor-4);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.lutas-container h1 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.lutas-imagens {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.proximas .lutas-imagens {
+  grid-template-columns: repeat(2, 200px);
+  font: 400 1rem/1 "IBM Plex Sans",
+  sans-serif;
+  gap: 30px 20px;
+  text-align: center;
+}
+
+.proximas p {
+  color: var(--cor-2);
+  font-size: 0.8125rem;
+}
+
+.proximas span {
+  color: var(--cor-3);
+  font-size: 0.8rem;
+}
+
+.anteriores .lutas-imagens {
+  grid-template-columns: repeat(2, 180px);
+}
+
+.lutas-imagens img {
+  display: block;
+  max-width: 100%;
+  border: 1px solid var(--cor-4);
+  border-radius: 5px;
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 8px;
+}
+
+.lutas .anteriores img {
+  width: 180px;
+  height: 126px;
+}
+
+@media (max-width: 900px) {
+  .lutas {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    gap: 60px;
+  }
+
+  .lutas::before {
+    display: none;
+  }
+
+  .lutas::after {
+    display: none;
+  }
+
+  .lutas .proximas {
+    border: none;
+    padding: 0;
+  }
+
+  .lutas .anteriores {
+    border: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .lutas {
+    padding-top: 60px;
+  }
+
+  .lutas h1 {
+    font-size: 1.7rem;
+  }
+
+  .lutas .anteriores img {
+    width: 148px;
+    height: 104px;
+  }
+
+  .proximas .lutas-imagens {
+    grid-template-columns: repeat(1, 200px);
+  }
+
+  .anteriores .lutas-imagens {
+    grid-template-columns: repeat(2, 148px);
+  }
+
+  .lutas-imagens {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 330px) {
+  .lutas-imagens {
+    gap: 8px;
+  }
+}

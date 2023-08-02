@@ -3,13 +3,8 @@
   justify-content: space-between;
   padding-top: 150px;
   gap: 40px;
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
-}
-
-.grupos-container h1 {
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 .grupos-container {
@@ -17,6 +12,11 @@
   flex-direction: column;
   align-items: center;
   width: 310px;
+}
+
+.grupos-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .grupos-imagens {
@@ -44,12 +44,12 @@
     gap: 30px;
   }
 
-  .grupos h1 {
-    font-size: 1.7rem;
-  }
-
   .grupos-container {
     width: 185px;
+  }
+
+  .grupos-container h1 {
+    font-size: 1.7rem;
   }
 
   .grupos-imagens {
@@ -63,6 +63,12 @@
   .grupos-imagens img {
     width: 90px;
     height: 90px;
+  }
+}
+
+@media (max-width: 800px) {
+  .grupos {
+    max-width: 90%;
   }
 }
 

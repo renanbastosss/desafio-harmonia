@@ -97,12 +97,12 @@
   }
 
   .menu-mobile img {
-    width: 30px;
+    width: auto;
     height: 30px;
   }
-  
+
   .menu-mobile .active {
-    opacity: 0.3;
+    filter: invert(60%) sepia(90%) saturate(6312%) hue-rotate(265deg) brightness(100%) contrast(111%);
   }
 
 }

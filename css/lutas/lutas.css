@@ -64,6 +64,7 @@
   object-fit: cover;
   object-position: center;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .lutas .anteriores img {

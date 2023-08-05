@@ -36,6 +36,13 @@
   height: 100px;
   object-fit: cover;
   object-position: top;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grupos-imagens img:hover {
+  border: 1px solid var(--cor-p1);
+  scale: 1.05;
 }
 
 @media (max-width: 900px) {

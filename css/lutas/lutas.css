@@ -12,6 +12,7 @@
   border: 1px solid var(--cor-4);
   padding: 30px;
   border-radius: 5px;
+  height: fit-content;
 }
 
 .lutas .anteriores {

@@ -25,6 +25,7 @@
   width: 300px;
   border: 1px solid var(--cor-5);
   border-radius: 5px;
+  background-color: var(--cor-7);
 }
 
 .imagem-ampliada {
@@ -55,7 +56,7 @@
 
 .atleta-nome {
   font-size: 1.125rem;
-  border-bottom: 1px solid var(--cor-1);
+  border-bottom: 2px solid var(--cor-1);
   margin-bottom: 5px;
 }
 

@@ -40,7 +40,7 @@ const dadosClassificacao = [
     wo: 0,
   },
   {
-    nome: 'Felix Moura',
+    nome: 'Felix de Moura',
     pontos: 1,
     lutas: 1,
     vitorias: 0,

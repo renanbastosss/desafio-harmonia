@@ -1,9 +1,9 @@
 const dadosClassificacao = [
   {
     nome: 'Ana Clara',
-    pontos: 0,
-    lutas: 0,
-    vitorias: 0,
+    pontos: 3,
+    lutas: 1,
+    vitorias: 1,
     finalizacoes: 0,
     wo: 0,
   },
@@ -105,8 +105,8 @@ const dadosClassificacao = [
   },
   {
     nome: 'Paula Jhatiacy',
-    pontos: 0,
-    lutas: 0,
+    pontos: 1,
+    lutas: 1,
     vitorias: 0,
     finalizacoes: 0,
     wo: 0,

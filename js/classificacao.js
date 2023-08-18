@@ -137,9 +137,9 @@ const dadosClassificacao = [
   },
   {
     nome: 'Vinicius Lima',
-    pontos: 9,
-    lutas: 3,
-    vitorias: 2,
+    pontos: 15,
+    lutas: 4,
+    vitorias: 3,
     finalizacoes: 2,
     wo: 0,
   },
